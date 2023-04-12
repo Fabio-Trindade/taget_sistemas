@@ -33,7 +33,7 @@ class Fibonacci:
     
 if __name__ == "__main__":
     fib = Fibonacci
-    numero = int(input())
+    numero = int(input("Insira o número: "))
     print("O número",f'{numero}',"pertence a sequência Fibonacci." if fib.fibonacciContemIterativo(numero)
            else "não pertence a sequência Fibonacci.", "(Versão iterativa)")
     print("O número",f'{numero}',"pertence a sequência Fibonacci." if fib.fibonacciContemRecursivo(numero) 
