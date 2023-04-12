@@ -9,7 +9,7 @@ class String:
         return newString
 
 if __name__ == "__main__":
-    entrada = input()
+    entrada = input("Insira a string: ")
     string = String(entrada)
     
     print(f'String: {entrada} \nString invertida: {string.inverterString()}')
